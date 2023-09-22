@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+      background-color: red;
+      background-image: ;
+      scroll-behavior: smooth;
+}
+body:hover{
+       
+       background-color: navy;
+}
+span{
+     margin-left: 300px;
+     margin-top: 0px;
+     font-family: Sans-Serif;
+     color: red;
+     font-weight: bold;
+     font-size: 50px;
+}
+
+.header{
+ padding: 20px;
+ border: 2px solid red;
+ box-shadow: 5px black;
+ background-color: transparent;
+ 
+}
+.imgg img{
+  width: 900px;
+  height: 500px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  align-items: center;
+}
+.header:hover{
+  padding: 100px;
+  
+}
+.li{
+  display: flex;
+  justify-content: center;
+}
+.btnn  button {
+ width: 220px;
+ margin-left: 150px;
+ text-decoration: none;
+ justify-content: center;
+ color: yellow;
+ background-color: yellow;
+ margin-left: ;
+ display: flex;
+ margin-top: 50px;
+ padding: 40px;
+ border-radius: 10px;
+ cursor: pointer;
+ border: 5px solid black;
+}
+.btnn  button:hover{
+  border: 2px solid black;
+  background-color: blue;
+  padding: 20px;
+}
+.btnn a{
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btnn a:hover{
+  color: yellow;
+  
+}
+.btnn1 button{
+  width: 220px;
+ margin-left: 150px;
+ text-decoration: none;
+ justify-content: center;
+ color: yellow;
+ background-color: yellow;
+ margin-left: ;
+ display: flex;
+ margin-top: 50%;
+ padding: 40px;
+ border-radius: 10px;
+ cursor: pointer;
+ border: 5px solid black;
+}
+.btnn1 button:hover{
+  border: 2px solid black;
+  background-color: blue;
+  padding: 20px;
+}
+.btnn1 a{
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btnn1 a:hover{
+  color: yellow;
+}
+
+.btnn2 button{
+  width: 220px;
+ margin-left: 150px;
+ text-decoration: none;
+ justify-content: center;
+ color: yellow;
+ background-color: yellow;
+ margin-left: ;
+ display: flex;
+ margin-top: 50%;
+ padding: 40px;
+ border-radius: 10px;
+ cursor: pointer;
+ border: 5px solid black;
+}
+.btnn2  button:hover{
+  border: 2px solid black;
+  background-color: blue;
+  padding: 20px;
+}
+.btnn2 a{
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btnn2 a:hover{
+  color: yellow;
+}
+.name{
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  color: red;
+  font-weight: bold;
+  font-size: 60px;
+  border: 5px solid black;
+  margin-left: 0px;
+  background-color: white;
+ border-top: 10px;
+}
+.project-detail {
+  width: 200px;
+  color: yellow;
+  margin-left: 400px;
+  margin-top: 40px;
+  font-weight: bold;
+  display: block;
+  font-size: 60px;
+}
+.name input{
+   margin-left: 200px;
+   margin-bottom: 20px;
+   background-color: transparent;
+   height: 50px;
+   width: 400px;
+   border-radius: 5px;
+   color: blue;
+   font-weight: bold;
+   border: 2px solid red;
+   
+}
+.name input:focus{
+  outline: none;
+}
+.name input::placeholder{
+  color: blue;
+  font-weight: bold;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+}
+.menu ul{
+  list-style: none;
+  display: block;
+  position: relative;
+  margin-left: 10px;
+  font-size: 50px;
+  overflow: hidden;
+}
+li{
+  float: left;
+  border: 4px solid yellow;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+li a{
+  text-decoration: none;
+  color: yellow;
+  padding: 20px;
+  
+  margin-bottom: 10px;
+}
+li a:hover{
+  color: black;
+  background-color: yellow;
+  border: 2px solid red;
+ margin-top: 5px;
+ 
+}
+
+
+.footer{
+  background-color: yellow;
+  padding: 160px;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+.footer input{
+  width: 500px;
+  height: 50px;
+  border: 2px solid red;
+  background-color: transparent;
+  color: red;
+  font-weight: bold;
+  overflow: none;
+  border-radius: 5px;
+  
+}
+.footer input:focus{
+  outline: none;
+}
